@@ -40,6 +40,32 @@ namespace Blackjack
             Cartas[23] = "7depaus";
             Cartas[24] = "8decopas";
             Cartas[25] = "8deespada";
+            Cartas[26] = "8deouro";
+            Cartas[27] = "8depaus";
+            Cartas[28] = "9deouro";
+            Cartas[29] = "9depaus";
+            Cartas[30] = "9decopas";
+            Cartas[31] = "9deespada";
+            Cartas[32] = "10deouro";
+            Cartas[33] = "10depaus";
+            Cartas[34] = "10decopas";
+            Cartas[35] = "10deespadas";
+            Cartas[36] = "ASdeouro";
+            Cartas[37] = "ASdepaus";
+            Cartas[38] = "ASdecopas";
+            Cartas[39] = "ASdeespadas";
+            Cartas[40] = "Kdeouro";
+            Cartas[41] = "Kdepaus";
+            Cartas[42] = "Kdecopas";
+            Cartas[43] = "Kdeespada";
+            Cartas[44] = "Jdeouro";
+            Cartas[45] = "Jdepaus";
+            Cartas[46] = "Jdecopas";
+            Cartas[47] = "Jdeespada";
+            Cartas[48] = "Qdeouro";
+            Cartas[49] = "Qdepaus";
+            Cartas[50] = "Qdecopas";
+            Cartas[51] = "Qdeespada";
 
             InitializeComponent();
         }
