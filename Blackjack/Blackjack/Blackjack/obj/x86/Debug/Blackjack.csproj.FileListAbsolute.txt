@@ -14,3 +14,5 @@ C:\Users\phs_p\Documents\GitHub\BlackJack-C-\Blackjack\Blackjack\Blackjack\obj\x
 C:\Users\phs_p\Documents\GitHub\BlackJack-C-\Blackjack\Blackjack\Blackjack\obj\x86\Debug\Blackjack.csproj.CoreCompileInputs.cache
 C:\Users\phs_p\Documents\GitHub\BlackJack-C-\Blackjack\Blackjack\Blackjack\obj\x86\Debug\Blackjack.exe
 C:\Users\phs_p\Documents\GitHub\BlackJack-C-\Blackjack\Blackjack\Blackjack\obj\x86\Debug\Blackjack.pdb
+C:\Users\Renan Castro\Documents\GitHub\BlackJack-C-\Blackjack\Blackjack\Blackjack\obj\x86\Debug\Blackjack.exe
+C:\Users\Renan Castro\Documents\GitHub\BlackJack-C-\Blackjack\Blackjack\Blackjack\obj\x86\Debug\Blackjack.pdb

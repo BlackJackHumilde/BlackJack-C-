@@ -66,6 +66,7 @@
             this.btnComecar.TabIndex = 11;
             this.btnComecar.Text = "COMEÇAR JOGO";
             this.btnComecar.UseVisualStyleBackColor = false;
+            this.btnComecar.Click += new System.EventHandler(this.btnComecar_Click);
             // 
             // lblNumero
             // 
