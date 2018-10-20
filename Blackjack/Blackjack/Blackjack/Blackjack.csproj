@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E300639C-AFEB-4234-BAE9-71C32BDE240D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Blackjack</RootNamespace>
+    <AssemblyName>Blackjack</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monteBJ.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perdedor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vencedor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2decopas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2deespada.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2deouro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2depaus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3decopas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3deespada.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3deouro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3depaus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4decopas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4deespada.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4deouro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4depaus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5decopas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5deespada.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5deouro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5depaus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6decopas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6deespada.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6deouro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6depaus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7decopas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7deespada.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7deouro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7depaus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8decopas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8deespada.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8deouro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8depaus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9decopas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9deespada.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9deouro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9depaus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10decopas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10deespada.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10deouro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10depaus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ASdecopas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ASdeespada.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ASdeouro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ASdepaus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jdecopas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jdeespada.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jdeouro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jdepaus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kdecopas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kdeespada.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kdeouro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kdepaus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Qdecopas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Qdeespada.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Qdeouro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Qdepaus.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

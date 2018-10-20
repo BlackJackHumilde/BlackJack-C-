@@ -1,0 +1,7 @@
+C:\Users\Renan Castro\Desktop\Blackjack\Blackjack\Blackjack\bin\Debug\Blackjack.exe
+C:\Users\Renan Castro\Desktop\Blackjack\Blackjack\Blackjack\bin\Debug\Blackjack.pdb
+C:\Users\Renan Castro\Desktop\Blackjack\Blackjack\Blackjack\obj\x86\Debug\Blackjack.Form1.resources
+C:\Users\Renan Castro\Desktop\Blackjack\Blackjack\Blackjack\obj\x86\Debug\Blackjack.Properties.Resources.resources
+C:\Users\Renan Castro\Desktop\Blackjack\Blackjack\Blackjack\obj\x86\Debug\Blackjack.csproj.GenerateResource.Cache
+C:\Users\Renan Castro\Desktop\Blackjack\Blackjack\Blackjack\obj\x86\Debug\Blackjack.exe
+C:\Users\Renan Castro\Desktop\Blackjack\Blackjack\Blackjack\obj\x86\Debug\Blackjack.pdb
